@@ -5,8 +5,7 @@ import axios from 'axios'
 const View = () => {
     const [todo,setData]=useState([])
 
-const fetchData=()=>
-    {
+const fetchData=()=>{
         axios.get("https://jsonplaceholder.typicode.com/todos").then(
             (response)=>{
 
